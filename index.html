@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+	<title>UF4 Entorno Cliente</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<noscript>
+		Para utilizar las funcionalidades completas de este sitio es necesario tener JavaScript habilitado. Aquí están las <a href="https://www.enable-javascript.com/es/">	instrucciones para habilitar JavaScript en tu navegador web</a>.
+	</noscript>
+</head>
+
+<body>
+	<h1>ACTIVIDAD UF4 ENTORNO CLIENTE</h1>
+	<h2>Modificar información de un archivo HTML por el contenido de un archivo *.txt externo</h2>
+	<a href="archivoExterno/texto1.txt" target="_blank"><input type="button" value="ENLACE AL ARCHIVO DE TEXTO EXTERNO " /></a>
+	<p>
+		<input type="button" value="MOSTRAR TEXTO CAJA 1" onclick="mostarTexto()" />
+		<input type="button" value="OCULTAR TEXTO CAJA 1" onclick="ocultarTexto()" />
+
+		<input type="button" value="MOSTRAR TEXTO CAJA 2" onclick="mostarTexto2()" />
+		<input type="button" value="OCULTAR TEXTO CAJA 2" onclick="ocultarTexto2()" />
+
+	</p>
+
+
+
+	<h3>El texto externo se insertará en los recuadros inferiores</h3>
+	<h3>La 'caja 1' contiene una bara de scroll y la 'caja 2' hace el scroll con el ratón</h3>
+
+	<div id="containerTextos">
+		<div id="salidaTexto">
+			<p><strong>CAJA DE TEXTO 1</strong></p>
+			<p style="text-align:center">Este texto se eliminarà y será sustituido por el nuevo texto desde el archivo externo o
+				al clicar en los botones de <strong>ocultar texto</strong></p>
+		</div>
+
+		<div id="salidaTexto2">
+			
+			<p><strong>CAJA DE TEXTO 2</strong></p>
+			<p style="text-align:center">Este texto se eliminarà y será sustituido por el nuevo texto desde el archivo externo o
+				al clicar en los botones de <strong>ocultar texto</strong></p>
+		</div>
+
+	</div>
+
+	<footer>
+		<p>©Copyleft 2022 <strong>Juan Bello Fernández</strong> </br> Trabajo perteneciente a la UF2 de Diseño Web en
+			Entorno Servidor. 2º DAW</p>
+
+		</p>
+
+	</footer>
+
+	<!-- Enlace al archivo JS-->
+	<script src="js/js.js"></script>
+</body>
+
+</html>
