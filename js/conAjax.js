@@ -1,9 +1,9 @@
 
 //Creamos el objeto XMLHttpRequest mediante una funcion. Es siempre el primer paso para trabajar con AJAX. XMLHttpReques no permite  crear varias peticones al servidor al mismo tiempo. Si se quiere crear varias peticiones, hay que crear varios objetos XMLHttpRequest. Para crear el objeto XMLHttpRequest, hay que comprobar si el navegador soporta el objeto XMLHttpRequest. Si no lo soporta, se intenta crear con ActiveX. Los navegadores que no soportan ActiveX no podran usar AJAX
 
-function creaObjetoXMLHttpRequest() {
-
-	//Variable que contendra el objeto XMLHttpRequest
+function creaObjetoXMLHttpRequest()
+{
+	//Variable que contendra el objeto XMLHttpRequest. Al principio se le asigna false para que no de error si el navegador no soporta el objeto XMLHttpRequest
 	var objetoXMLHttpRequest = false;
 
 
@@ -19,8 +19,6 @@ function creaObjetoXMLHttpRequest() {
 		}
 	}
 	return objetoXMLHttpRequest;
-	
-	
 }
 
 //Asginamos el objeto XMLHttpRequest a la variable docTxt. Esta variable se usara en las funciones que iremos creando
@@ -55,13 +53,3 @@ function ocultarTexto() {
 	ocultar.innerHTML = "";
 }
 
-//Funcion para mostrar el texto en el div "salidaTexto 2"
-function mostarTexto2() {
-	mostrar = document.getElementById("salidaTexto2");
-	mostrar.innerHTML = texto;
-}
-//Funcion para ocultar el texto en el div "salidaTexto". Sencillamente cambiamos el contenido del div por un espacio en blanco o un texto vacio
-function ocultarTexto2() {
-	ocultar = document.getElementById("salidaTexto2");
-	ocultar.innerHTML = "";
-}

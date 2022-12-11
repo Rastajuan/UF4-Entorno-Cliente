@@ -21,12 +21,13 @@
             asíncrona por la red.<br> Este método si que permite crear varias peticiones y mantenerlas todas a la
             escucha para imprimir diferentes archivos externos alojados en el servidor
         </h3>
+          </div>
         <div id="navegacion">
             <p> <a href="index.html"><input type="button" value="VOLVER AL INDICE" /></a>
                 <a href="conAjax.html"><input type="button" value="VER ACTIVIDAD CON AJAX" /></a>
             </p>
         </div>
-    </div>
+  
 
     <div id="botones">
         <p style="text-align:center"><a href="archivoExterno/texto1.txt" target="_blank"><input type="button"
@@ -35,9 +36,9 @@
             <a href="archivoExterno/texto3.txt" target="_blank"><input type="button" value="TEXTO EXTERNO 3" /></a>
         </p>
         <p style="text-align:center">
-            <input type="button" value="MOSTRAR TEXTO 1" onclick="mostarTexto()" />
-            <input type="button" value="MOSTRAR TEXTO 2" onclick="mostarTexto()" />
-            <input type="button" value="MOSTRAR TEXTO 3" onclick="mostarTexto()" />
+            <input id="1" type="button" value="MOSTRAR TEXTO 1"  />
+            <input id="2" type="button" value="MOSTRAR TEXTO 2" />
+            <input id="3" type="button" value="MOSTRAR TEXTO 3" />
 
         </p>
         <p style="text-align:center">
@@ -45,12 +46,11 @@
         </p>
     </div>
 
- <h3 style="text-align:center">El texto externo se insertará en el recuadro inferior<br>El scroll en el texto se realiza con el ratón, se ha ocultado la barra de scroll con CSS</h3>
+    <h3 style="text-align:center">El texto externo se insertará en el recuadro inferior<br>El scroll en el texto se
+        realiza con el ratón, se ha ocultado la barra de scroll con CSS</h3>
     <div id="containerTextos">
 
         <div id="salidaTexto">
-
-            <p><strong>CAJA DE TEXTO 2</strong></p>
             <p style="text-align:center">Este texto se eliminarà y será sustituido por el nuevo texto desde el archivo
                 externo o
                 al clicar en los botones de <strong>ocultar texto</strong></p>
