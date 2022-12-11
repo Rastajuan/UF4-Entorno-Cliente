@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    <title>UF4 Entorno Cliente</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <noscript>
+        Para utilizar las funcionalidades completas de este sitio es necesario tener JavaScript habilitado. Aquí están
+        las <a href="https://www.enable-javascript.com/es/"> instrucciones para habilitar JavaScript en tu navegador
+            web</a>.
+    </noscript>
+</head>
+
+<body>
+    <div id="cabecera">
+        <h1>ACTIVIDAD UF4 ENTORNO CLIENTE</h1>
+        <h2>Modificar información de un archivo HTML por el contenido de un archivo *.txt externo mediante AJAX</h2>
+        <h3 class="blue">AJAX significa JavaScript asíncrono y XML (Asynchronous JavaScript and XML). Es un conjunto de técnicas de desarrollo web que permiten que las aplicaciones web funcionen de forma asíncrona, procesando cualquier solicitud al servidor en segundo plano.Este método no permite crear varias peticiones y mantenerlas todas a la escucha para imprimir diferentes
+            archivos externos.<br> Si se quieren crear varias peticiones, hay que crear varios objetos XMLHttpRequest.
+        </h3>
+    </div>
+    <div id="navegacion">
+        <p> <a href="index.html"><input type="button" value="VOLVER AL INDICE" /></a>
+            <a href="conFetch.html"><input type="button" value="VER ACTIVIDAD CON FETCH" /></a>
+        </p>
+    </div>
+    <div id="botones">
+        <p style="text-align:center"><a href="archivoExterno/texto.txt" target="_blank"><input type="button"
+            value="ARCHIVO DE TEXTO EXTERNO " /></a></p>
+    <p>
+        <input type="button" value="MOSTRAR TEXTO" onclick="mostarTexto()" />
+        <input type="button" value="OCULTAR TEXTO" onclick="ocultarTexto()" />
+
+    </p>
+    </div>
+   
+    <h3 style="text-align:center">El texto externo se insertará en el recuadro inferior<br>El scroll en el texto se realiza con el ratón, se ha ocultado la barra de scroll con CSS</h3>
+    
+    <div id="containerTextos">
+
+        <div id="salidaTexto">
+
+            <p><strong>CAJA DE TEXTO 2</strong></p>
+            <p style="text-align:center">Este texto se eliminarà y será sustituido por el nuevo texto desde el archivo
+                externo o
+                al clicar en los botones de <strong>ocultar texto</strong></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>©Copyleft 2022 <strong>Juan Bello Fernández</strong> </br> Trabajo perteneciente a la UF2 de Diseño Web en
+            Entorno Servidor. 2º DAW</p>
+
+        </p>
+
+    </footer>
+
+    <!-- Enlace al archivo JS-->
+    <script src="js/conAjax.js"></script>
+</body>
+
+</html>
