@@ -1,34 +1,29 @@
-var boton1 = document.getElementById("1");
+//Asignamos a una constante el elemento del DOM que queremos manipular
+
+const BOTON2 = document.getElementById("2");
+const BOTON3 = document.getElementById("3");
+const OCULTARTEXTO= document.getElementById("ocultarTexto");
 const CAJATEXTOS = document.getElementById("salidaTexto");
-/* Se añade un evento a cada botón para que al pulsarlos se ejecute la función*/
-boton1.addEventListener("onclick", seleccionarTextoExterno);
-document.getElementById("2").addEventListener("click", seleccionarTextoExterno);
-document.getElementById("3").addEventListener("click", seleccionarTextoExterno);
+
+/* añadimos un evento a cada botón para que al pulsarlos se ejecute la función*/
+BOTON2.addEventListener("click", seleccionarTextoExterno);
+BOTON3.addEventListener("click", seleccionarTextoExterno);
+OCULTARTEXTO.addEventListener("click", ocultarTexto);
+
 
 /* Función que selecciona el texto segun pulsemos un boton u otro */
 function seleccionarTextoExterno(e) {
 
-	if (e.target.value == 1) {
-		fetch("archivoExterno/texto1.txt")
-			.then((res) => {
-				return res.text();
+	/* Se comprueba que boton se ha pulsado y se ejecuta la función fetch() con el archivo correspondiente */
+	 if (e.target == BOTON2) { //Si el boton pulsado es el 2
+		fetch("archivoExterno/texto2.txt") //Se ejecuta la función fetch() con el archivo texto2.txt
+			.then((res) => { //Se ejecuta la función then() con la respuesta de la función fetch()
+				return res.text(); //Se ejecuta la función text() con la respuesta de la función then()
 			})
-			.then((contenido) => {
-				CAJATEXTOS.innerHTML = contenido;
+			.then((contenido) => { //Se ejecuta la función then() con la respuesta de la función text()
+				CAJATEXTOS.innerHTML = contenido; //Se añade el contenido del archivo al elemento del DOM
 			});
-	}
-	else
-		if (e.target.value == 2) {
-		fetch("archivoExterno/texto2.txt")
-			.then((res) => {
-				return res.text();
-			})
-			.then((contenido) => {
-				CAJATEXTOS.innerHTML = contenido;
-			});
-		}
-		else
-			if (e.target.value == 3) {
+	} else if (e.target == BOTON3) {
 		fetch("archivoExterno/texto3.txt")
 			.then((res) => {
 				return res.text();

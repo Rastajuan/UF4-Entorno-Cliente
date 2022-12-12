@@ -1,1 +1,40 @@
-texto 3
+<p style="color:red;font-weight:bold">
+1. De tal palo, tal astilla.<br>
+Refrán que nos habla de la similitud entre dos familiares, normalmente padre e hijo o madre e hija.<br><br>
+
+2. Al mal tiempo, buena cara.<br>
+Refrán que nos indica que ante las adversidades debemos tener una actitud positiva.<br><br>
+
+3. A llorar al valle.<br>
+Que vayan a contar sus penas a otro.<br><br>
+
+4. No es oro todo lo que reluce.<br>
+Algo que parece muy bueno puede no serlo si se conoce en profundidad.<br><br>
+
+5. Dinero llama dinero.<br>
+Tener cierto capital inicial nos hará más propensos a generar más riqueza.<br><br>
+
+6. A la tercera va la vencida.<br>
+No debemos desistir en nuestros intentos por perseverar.<br><br>
+
+7. Más vale prevenir que lamentar.<br>
+Tomar precauciones es una forma inteligente de evitar males mayores.<br><br>
+
+8. Al que madruga, Dios lo ayuda.<br>
+Ser trabajadores en nuestro día a día nos llevará a cumplir nuestros objetivos.<br><br>
+
+9. Tira la piedra y esconde la mano.<br>
+Este refrán nos hace referencia a aquellas personas que no son conscientes de sus malos actos, o bien que actúan de forma miserable y después disimulan para no ser pillados.<br><br>
+
+10. El hábito no hace al monje.<br>
+Nuestra forma de vestir o nuestra apariencia no representa quién somos realmente.<br><br>
+
+11. Más vale tarde que nunca.<br>
+Es mejor haber alcanzado un propósito más tarde de lo previsto que nunca haberlo hecho.<br><br>
+
+12. Cría fama y ponte a dormir.<br>
+Hace referencia a que si en una ocasión hemos actuado de una forma, la sociedad creerá que actuaremos siempre de la misma manera.<br><br>
+
+13. Dios aprieta pero no ahoga.<br>
+La vida nos pone a prueba pero somos capaces de salir adelante.
+</p>

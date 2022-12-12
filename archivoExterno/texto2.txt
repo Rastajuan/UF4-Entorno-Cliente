@@ -1,1 +1,118 @@
-texto 2
+<p style="color:blue; font-weight:bold">
+
+
+
+- ¿Tienes WiFi? <br>
+
+- Sí<br>
+
+- ¿Y cuál es la clave?<br>
+
+- Tener dinero y pagarlo.<br><br>
+
+
+
+En una entrevista de trabajo:<br>
+
+- ¿Nivel de inglés?<br>
+
+- Alto<br>
+
+- Bien. Traduzca "mirar".<br>
+
+- Look.<br>
+
+- Perfecto. Úselo en una frase.<br>
+
+- "Luke", yo soy tu padre.<br>
+
+- Contratado.<br><br>
+
+
+
+¿Cuál es el café más peligroso del mundo?<br>
+
+El ex-preso<br><br>
+
+
+
+- Mamá, mamá, los spaghetti se están pegando.<br>
+
+- Déjalos que se maten<br><br>
+
+
+
+- Soy Rosa.<br>
+
+- Ah, perdóname, es que soy daltónico.<br><br>
+
+
+
+- Oye, ¿cuál es tu plato favorito y por qué?<br>
+
+- Pues el hondo, porque cabe más comida…<br><br>
+
+
+
+¿Qué pasa si tiras un pato al agua?.<br>
+
+Nada.<br><br>
+
+- ¿Tienes WiFi? <br>
+
+- Sí<br>
+
+- ¿Y cuál es la clave?<br>
+
+- Tener dinero y pagarlo.<br><br>
+
+
+
+En una entrevista de trabajo:<br>
+
+- ¿Nivel de inglés?<br>
+
+- Alto<br>
+
+- Bien. Traduzca "mirar".<br>
+
+- Look.<br>
+
+- Perfecto. Úselo en una frase.<br>
+
+- "Luke", yo soy tu padre.<br>
+
+- Contratado.<br><br>
+
+
+
+¿Cuál es el café más peligroso del mundo?<br>
+
+El ex-preso<br><br>
+
+
+
+- Mamá, mamá, los spaghetti se están pegando.<br>
+
+- Déjalos que se maten<br><br>
+
+
+
+- Soy Rosa.<br>
+
+- Ah, perdóname, es que soy daltónico.<br><br>
+
+
+
+- Oye, ¿cuál es tu plato favorito y por qué?<br>
+
+- Pues el hondo, porque cabe más comida…<br><br>
+
+
+
+¿Qué pasa si tiras un pato al agua?.<br>
+
+Nada.<br>
+
+
+</p>
