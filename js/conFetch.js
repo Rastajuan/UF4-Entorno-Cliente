@@ -1,7 +1,7 @@
 //Asignamos a una constante el elemento del DOM que queremos manipular
 
-const BOTON2 = document.getElementById("2");
-const BOTON3 = document.getElementById("3");
+const BOTON2 = document.getElementById("boton2");
+const BOTON3 = document.getElementById("boton3");
 const OCULTARTEXTO= document.getElementById("ocultarTexto");
 const CAJATEXTOS = document.getElementById("salidaTexto");
 
