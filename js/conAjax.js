@@ -1,3 +1,10 @@
+const SALIDATEXTO = document.getElementById("salidaTexto");
+const MOSTRAR = document.getElementById("mostrar");
+const OCULTAR = document.getElementById("ocultar");
+
+MOSTRAR.addEventListener("click", mostrarTexto);
+OCULTAR.addEventListener("click", ocultarTexto);
+
 
 //Creamos el objeto XMLHttpRequest mediante una funcion. Es siempre el primer paso para trabajar con AJAX. XMLHttpReques no permite  crear varias peticones al servidor al mismo tiempo. Si se quiere crear varias peticiones, hay que crear varios objetos XMLHttpRequest. Para crear el objeto XMLHttpRequest, hay que comprobar si el navegador soporta el objeto XMLHttpRequest. Si no lo soporta, se intenta crear con ActiveX. Los navegadores que no soportan ActiveX no podran usar AJAX
 
@@ -43,13 +50,11 @@ docTxt.send();
 
 
 //Funcion para mostrar el texto en el div "salidaTexto"
-function mostarTexto() {
-	mostrar = document.getElementById("salidaTexto");
-	mostrar.innerHTML = texto;
+function mostrarTexto() {
+	SALIDATEXTO.innerHTML = texto;
 }
 //Funcion para ocultar el texto en el div "salidaTexto". Sencillamente cambiamos el contenido del div por un espacio en blanco o un texto vacio
 function ocultarTexto() {
-	ocultar = document.getElementById("salidaTexto");
-	ocultar.innerHTML = "";
+	SALIDATEXTO.innerHTML = "";
 }
 

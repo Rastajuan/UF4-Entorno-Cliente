@@ -42,8 +42,18 @@ input:hover {
 .blue{
   color: blue;
   text-align: justify;
+  font-weight: bold;
 }
-
+.red{
+  color: red;
+  text-align: justify;
+  font-weight: bold;
+}
+.green{
+  color: green;
+  text-align: justify;
+  font-weight: bold;
+}
 /* CSS ACTIVIDAD AJAX*/
 #containerTextos {
   display: flex;
