@@ -54,6 +54,13 @@ input:hover {
   text-align: justify;
   font-weight: bold;
 }
+#contenedorActividades
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: darkorchid; */
+}
 /* CSS ACTIVIDAD AJAX*/
 #containerTextos {
   display: flex;
