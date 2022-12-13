@@ -1,7 +1,9 @@
+//Asignamos a las constantes los elementos del DOM que vamos a usar
 const SALIDATEXTO = document.getElementById("salidaTexto");
 const MOSTRAR = document.getElementById("mostrar");
 const OCULTAR = document.getElementById("ocultar");
 
+//Añadimos un evento a cada boton para que al pulsarlos se ejecute la función
 MOSTRAR.addEventListener("click", mostrarTexto);
 OCULTAR.addEventListener("click", ocultarTexto);
 
@@ -9,23 +11,22 @@ OCULTAR.addEventListener("click", ocultarTexto);
 //Creamos el objeto XMLHttpRequest mediante una funcion. Es siempre el primer paso para trabajar con AJAX. XMLHttpReques no permite  crear varias peticones al servidor al mismo tiempo. Si se quiere crear varias peticiones, hay que crear varios objetos XMLHttpRequest. Para crear el objeto XMLHttpRequest, hay que comprobar si el navegador soporta el objeto XMLHttpRequest. Si no lo soporta, se intenta crear con ActiveX. Los navegadores que no soportan ActiveX no podran usar AJAX
 
 function creaObjetoXMLHttpRequest()
-{
-	//Variable que contendra el objeto XMLHttpRequest. Al principio se le asigna false para que no de error si el navegador no soporta el objeto XMLHttpRequest
+{	//Variable que contendra el objeto XMLHttpRequest. Al principio se le asigna false para que no de error si el navegador no soporta el objeto XMLHttpRequest
 	var objetoXMLHttpRequest = false;
 
-
+    //Comprobamos si el navegador soporta el objeto XMLHttpRequest y lo creamos. Si no lo soporta, se intenta crear con ActiveX
 	if (window.XMLHttpRequest) { //Si el navegador soporta el objeto XMLHttpRequest, se crea
 			objetoXMLHttpRequest = new XMLHttpRequest()
 	}
 	else
 	{
 		
-		if (window.ActiveXObject)
+		if (window.ActiveXObject) //Si el navegador no soporta el objeto XMLHttpRequest, se intenta crear con ActiveX
 		{
 		objetoXMLHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
 		}
 	}
-	return objetoXMLHttpRequest;
+	return objetoXMLHttpRequest; //Devolvemos el objeto XMLHttpRequest
 }
 
 //Asginamos el objeto XMLHttpRequest a la variable docTxt. Esta variable se usara en las funciones que iremos creando
@@ -37,7 +38,7 @@ docTxt.open("GET", "archivoExterno/texto.txt", true);
 //Funcion que recoge la respuesta del archivo. Si readyState es 4 y status es 200, el archivo se ha cargado correctamente
 function leerArchivo() {
 	if (docTxt.readyState == 4 && docTxt.status == 200) {  
-		texto = docTxt.responseText;
+		texto = docTxt.responseText; //Asignamos el texto del archivo a la variable texto que usaremos en las funciones mostrarTexto() y ocultarTexto()
 	}
 }
 

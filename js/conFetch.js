@@ -11,8 +11,9 @@ OCULTARTEXTO.addEventListener("click", ocultarTexto);
 
 
 /* Función que selecciona el texto segun pulsemos un boton u otro */
-function seleccionarTextoExterno(e) {
-
+//Se le pasa como parámetro el evento que se ha producido en el DOM (click)
+function seleccionarTextoExterno(e)
+{
 	/* Se comprueba que boton se ha pulsado y se ejecuta la función fetch() con el archivo correspondiente */
 	 if (e.target == BOTON2) { //Si el boton pulsado es el 2
 		fetch("archivoExterno/texto2.txt") //Se ejecuta la función fetch() con el archivo texto2.txt
